@@ -1,1 +1,24 @@
-main.css
+html {
+	font-size: 16px;
+}
+
+.navLinks {
+	list-style-type:none;
+	text-align: center;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color:#0F2613;
+}
+
+.navLinks li {
+	display: inline-block;
+	padding-top:1rem;
+	padding-bottom:1rem
+}
+
+.navLinks a {
+	color:white;
+	text-decoration:none;
+	padding: 1rem;
+}
