@@ -32,6 +32,11 @@ html {
 	margin-top: 1rem;
 }
 
+.navLinks h3{
+	font-family: 'Euphoria Script', cursive;
+	color: #BFBC9C;
+}
+
 .container1 {
 	position: relative;
 }
@@ -48,4 +53,8 @@ p {
     box-sizing: border-box;
     color: #fff;
     margin: 0;
+}
+
+h2{
+	font-family: 'Euphoria Script', cursive;
 }
