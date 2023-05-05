@@ -7,6 +7,8 @@ body{
   background-repeat:repeat;
 }
 
+
+/*for navigation bar on about page*/
 .navLinks {
 	list-style-type:none;
 	text-align: center;
@@ -42,6 +44,43 @@ body{
 	color: #BFBC9C;
 }
 
+/*for navigation bar on resume, clips and contact page*/
+.navLinkssmall {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color:#0F2613;
+	display:flex;
+}
+
+.navLinkssmall li {
+	display: inline-block;
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+
+.navLinkssmall a {
+	color:#BFBC9C;
+	text-decoration:none;
+	padding: 1rem;
+}
+
+.navLinkssmall h3 {
+	font-family: 'Euphoria Script', cursive;
+	color: #BFBC9C;
+	text-decoration:none;
+	font-size: 2rem;
+	margin-bottom:0;
+	margin-top:1.2rem;
+	margin-left: 2rem;
+}
+
+.smallnav {
+	text-align:right;
+}
+
+/*for headers on every page*/
 h2{
 	font-family: 'Euphoria Script', cursive;
 	font-size: 3.5rem;
@@ -79,48 +118,12 @@ h2{
 	text-align: center;
 }*/
 
+/*for about page*/
 .resize-headshot {
 	margin-top: 2rem;
 	margin-left: 7rem;
 	width: 70%;
 	border-color: black;
-}
-
-iframe {
-	margin-left: 10rem;
-	margin-right: 10rem;
-}
-
-.navLinkssmall {
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	overflow: hidden;
-	background-color:#0F2613;
-	display:flex;
-}
-
-.navLinkssmall li {
-	display: inline-block;
-	padding-top:1rem;
-	padding-bottom:1rem;
-	text-align: right;
-}
-
-.navLinkssmall a {
-	color:#BFBC9C;
-	text-decoration:none;
-	padding: 1rem;
-}
-
-.navLinkssmall h3 {
-	font-family: 'Euphoria Script', cursive;
-	color: #BFBC9C;
-	text-decoration:none;
-	font-size: 2rem;
-	margin-bottom:0;
-	margin-top:1.2rem;
-	margin-left: 2rem;
 }
 
 .overlap {
@@ -131,6 +134,13 @@ iframe {
     box-sizing: border-box;
 }
 
+/*for resume page*/
+iframe {
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+
+/*for clips page*/
 .headers {
 	font-family: Carlito, sans-serif;
 	text-decoration:none;
@@ -142,10 +152,9 @@ iframe {
 		background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #153D27 50%)
 }
 
-.article-img{
+.article-img {
 	width:100%;
 }
-
 
 
 
