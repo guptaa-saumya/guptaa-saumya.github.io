@@ -5,6 +5,7 @@ html {
 body{
   background-image: url(SO_texture_bg.jpg);
   background-repeat:repeat;
+  background-color: #FFF9DE;
 }
 
 
@@ -49,15 +50,17 @@ body{
 	list-style-type:none;
 	margin:0;
 	padding:0;
-	overflow: hidden;
+/*	overflow: hidden;*/
 	background-color:#0F2613;
-	display:flex;
+/*	display:flex;*/
 }
 
 .navLinkssmall li {
-	display: inline-block;
+/*	display: inline-block;*/
 	padding-top:1rem;
 	padding-bottom:1rem;
+	border:1px solid red;
+	text-align:center;
 }
 
 .navLinkssmall a {
@@ -74,10 +77,12 @@ body{
 	margin-bottom:0;
 	margin-top:1.2rem;
 	margin-left: 2rem;
+	text-align:center;
 }
 
-.smallnav {
-	text-align:right;
+.navLinkssmall ul {
+/*	position:absolute;*/
+	right:0;
 }
 
 /*for headers on every page*/
@@ -119,19 +124,38 @@ h2{
 }*/
 
 /*for about page*/
+#about {
+	text-align: center;
+}
 .resize-headshot {
-	margin-top: 2rem;
-	margin-left: 7rem;
 	width: 70%;
-	border-color: black;
 }
 
 .overlap {
 	position:relative;
-	right: 10%;
-	margin-top: 2rem;
-	background-color: rgba(166, 124, 76,.5);
-    box-sizing: border-box;
+	top: -3rem;
+	text-align: left;
+	padding: 1rem;
+	background-color: rgba(166, 124, 76,.75);
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+
+	#about {
+		position: relative;
+		text-align: left;
+	}
+	.resize-headshot {
+		position: absolute;
+		width: 50%;
+	}
+	.overlap {
+		position: absolute;
+		width: 60%;
+		top: 3rem;
+		right: 0;
+	}
+
 }
 
 /*for resume page*/
@@ -143,19 +167,93 @@ iframe {
 /*for clips page*/
 .headers {
 	font-family: Carlito, sans-serif;
-	text-decoration:none;
+	text-decoration-line: none;
 	font-size: 1rem;
+	text-align:center;
 }
 
 .news-orgs {
 	font-size: 2.5rem;
-		background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #153D27 50%)
+	color: black;
+	background: linear-gradient(180deg, rgba(255,255,255,0) 90%, #153D27 50%);
+}
+
+.news-orgs-line {
+	text-decoration-line:none;
+	color:black;
+}
+
+.news-orgs-line:hover {
+	color:darkseagreen;
 }
 
 .article-img {
 	width:100%;
 }
 
+.header-line {
+	text-decoration:none;
+	color:black;
+}
 
+.header-line:hover {
+	color:darkseagreen;
+}
+
+.nopadding {
+	margin:0;
+}
+
+/*for contact page*/
+
+.mail img {
+	width:150%;
+}
+
+
+@media (min-width: 680px) {
+	.navLinkssmall li {
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid blue;
+}
+	.navLinkssmall {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow: hidden;
+		background-color:#0F2613;
+		display:flex;
+	}
+
+/*	.navLinkssmall li {
+		display: inline-block;
+		padding-top:1rem;
+		padding-bottom:1rem;
+		border: 1px solid blue;
+	}*/
+
+	.navLinkssmall a {
+		color:#BFBC9C;
+		text-decoration:none;
+		padding: 1rem;
+	}
+
+	.navLinkssmall h3 {
+		font-family: 'Euphoria Script', cursive;
+		color: #BFBC9C;
+		text-decoration:none;
+		font-size: 2rem;
+		margin-bottom:0;
+		margin-top:1.2rem;
+		margin-left: 2rem;
+	}
+
+	.navLinkssmall ul {
+		position:absolute;
+		right:0;
+	}
+}
 
 
