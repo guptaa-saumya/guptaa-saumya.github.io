@@ -60,8 +60,8 @@ body{
 /*	display: inline-block;*/
 	padding-top:1rem;
 	padding-bottom:1rem;
-	border:1px solid red;
 	text-align:center;
+	list-style-type: none;
 }
 
 .navLinkssmall a {
@@ -167,8 +167,8 @@ h2{
 	}
 }
 
-@media only screen and (min-width: 53em) {  /* 850px */
-	.overlap {
+/*@media only screen and (min-width: 53em) {  /* 850px */
+/*	.overlap {
 		position: absolute;
 		width: 40%;
 		top: 5rem;
@@ -184,7 +184,7 @@ h2{
 		position: absolute;
 		width: 30%;
 	}
-}
+}*
 
 /*for resume page*/
 iframe {
@@ -228,8 +228,14 @@ iframe {
 	color:darkseagreen;
 }
 
-.nopadding {
+/*.nopadding {
 	margin:0;
+}
+*/
+@media only screen and (min-width: 45em) {  /* 720px */ 
+	.nopadding {
+		margin:0;
+	}
 }
 
 /*for contact page*/
@@ -244,7 +250,6 @@ iframe {
     display: inline-block;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border: 1px solid blue;
 }
 	.navLinkssmall {
 		list-style-type:none;
