@@ -165,6 +165,10 @@ h2{
 	.navLinks
 		overflow: hidden;
 	}
+
+	.navlinks h1 {
+		font-size: 4rem;
+	}
 }
 
 /*@media only screen and (min-width: 53em) {  /* 850px */
@@ -188,8 +192,9 @@ h2{
 
 /*for resume page*/
 iframe {
-	margin-left: 10rem;
+	margin-left: 20rem;
 	margin-right: 10rem;
+	text-align: center;
 }
 
 /*for clips page*/
@@ -228,9 +233,6 @@ iframe {
 	color:darkseagreen;
 }
 
-/*.nopadding {
-	margin:0;
-}
 */
 @media only screen and (min-width: 45em) {  /* 720px */ 
 	.nopadding {
