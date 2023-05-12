@@ -241,15 +241,37 @@ iframe {
 
 /*for contact page*/
 
-.mail img {
-	width:30%;
+/*.mail img {
+	width:70%;
+	padding-bottom:0;
+	margin-bottom:0;*/
 }
 
 .contact-text {
 	font-family: Carlito, sans-serif;
 }
 
+.icons {
+	text-align: center;
+}
 
+.mail-text {
+	padding-top:0;
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */ 
+/*	.mail img {
+		width: 120%;
+	}
+
+figure.mail.icons{
+	width:100%;
+	padding:0;*/
+}
+
+
+
+/*for nav bar on contact, clips, and resume page*/
 @media (min-width: 680px) {
 	.navLinkssmall li {
     display: inline-block;
