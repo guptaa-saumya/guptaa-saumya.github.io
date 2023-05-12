@@ -14,15 +14,16 @@ body{
 	list-style-type:none;
 	text-align: center;
 	margin:0;
-	padding:0;
+	padding-top:0.5rem;
+	padding-bottom:0.1rem;
 /*	overflow: hidden;*/
 	background-color:#0F2613;
 }
 
 .navLinks li {
 /*	display: inline-block;*/
-	padding-top:1rem;
-	padding-bottom:1rem;
+	padding-top:0.2rem;
+	padding-bottom:0.5rem;
 	list-style-type: none;
 }
 
@@ -50,7 +51,8 @@ body{
 .navLinkssmall {
 	list-style-type:none;
 	margin:0;
-	padding:0;
+	padding-top:0.5rem;
+	padding-bottom: 0.1rem;
 /*	overflow: hidden;*/
 	background-color:#0F2613;
 /*	display:flex;*/
@@ -58,8 +60,8 @@ body{
 
 .navLinkssmall li {
 /*	display: inline-block;*/
-	padding-top:1rem;
-	padding-bottom:1rem;
+	padding-top:0.2rem;
+	padding-bottom:0.5rem;
 	text-align:center;
 	list-style-type: none;
 }
@@ -79,6 +81,7 @@ body{
 	margin-top:1.2rem;
 	margin-left: 2rem;
 	text-align:center;
+	padding-bottom:0;
 }
 
 .navLinkssmall ul {
@@ -146,10 +149,12 @@ h2{
 		position: relative;
 		text-align: left;
 	}
+
 	.resize-headshot {
 		position: absolute;
 		width: 50%;
 	}
+
 	.overlap {
 		position: absolute;
 		width: 55%;
@@ -162,8 +167,9 @@ h2{
 		display: inline-block;
 	}
 
-	.navLinks
+	.navLinks {
 		overflow: hidden;
+		padding-top: 0.5rem;
 	}
 
 	.navlinks h1 {
@@ -171,31 +177,22 @@ h2{
 	}
 }
 
-/*@media only screen and (min-width: 53em) {  /* 850px */
-/*	.overlap {
-		position: absolute;
-		width: 40%;
-		top: 5rem;
-		right: 0;
-	}
-
-	#about {
-		position: relative;
-		text-align: left;
-	}
-
-	.resize-headshot {
-		position: absolute;
-		width: 30%;
-	}
-}*
 
 /*for resume page*/
 iframe {
-	margin-left: 20rem;
+	width:80%;
+	margin-left: 4rem;
 	margin-right: 10rem;
 	text-align: center;
 }
+
+@media only screen and (min-width: 51em) {  /* 720px */
+	iframe {
+		width: 80%;
+		margin-left: 8rem;
+		margin-right: 15rem;
+		text-align: center;*/
+	}
 
 /*for clips page*/
 .headers {
@@ -233,7 +230,7 @@ iframe {
 	color:darkseagreen;
 }
 
-*/
+
 @media only screen and (min-width: 45em) {  /* 720px */ 
 	.nopadding {
 		margin:0;
@@ -256,7 +253,7 @@ iframe {
 	.navLinkssmall {
 		list-style-type:none;
 		margin:0;
-		padding:0;
+		padding-bottom:.7rem;
 		overflow: hidden;
 		background-color:#0F2613;
 		display:flex;

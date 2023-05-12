@@ -1,0 +1,37 @@
+html {
+	font-size: 16px;
+}
+
+@media only screen and (min-width: 61em) {   /*960px  */
+	
+	#about {
+		position: relative;
+		text-align: left;
+	}
+	.resize-headshot {
+		position: absolute;
+		width: 30%;
+		margin-left: 8rem;
+	}
+	.overlap {
+		position: absolute;
+		width: 63%;
+		top: rem;
+		right: 0;
+	}
+
+	.navLinks li {
+/*		font-size: 2rem;*/
+		display: inline-block;
+	}
+
+	.navLinks {
+		overflow: hidden;
+		padding-top: .5rem;
+	}
+
+	.navlinks h1 {
+		font-size: 10rem;
+	}
+}
+
