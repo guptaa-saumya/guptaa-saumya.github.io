@@ -130,6 +130,7 @@ h2{
 /*for about page*/
 #about {
 	text-align: center;
+	font-family: Carlito, sans-serif
 }
 .resize-headshot {
 	width: 50%;
@@ -240,7 +241,11 @@ iframe {
 /*for contact page*/
 
 .mail img {
-	width:150%;
+	width:30%;
+}
+
+.contact-text {
+	font-family: Carlito, sans-serif;
 }
 
 
